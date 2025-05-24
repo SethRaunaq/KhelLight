@@ -1,0 +1,52 @@
+{
+  "name": "khellightmobilenew2",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/datetimepicker": "^8.3.0",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "@supabase/supabase-js": "^2.49.4",
+    "events": "^3.3.0",
+    "expo": "~53.0.9",
+    "expo-av": "~15.1.4",
+    "expo-crypto": "~14.1.4",
+    "expo-random": "^14.0.1",
+    "expo-status-bar": "~2.2.3",
+    "expo-video": "~2.1.9",
+    "metro": "^0.82.3",
+    "metro-core": "^0.82.3",
+    "metro-runtime": "^0.82.3",
+    "metro-source-map": "^0.82.3",
+    "pako": "^2.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "0.79.2",
+    "react-native-crypto": "^2.2.0",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-http": "^0.0.3",
+    "react-native-https": "^1.0.0",
+    "react-native-randombytes": "^3.6.1",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-tcp-socket": "^6.3.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-video": "^6.14.0",
+    "stream-browserify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "@types/react-native": "^0.72.8",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
